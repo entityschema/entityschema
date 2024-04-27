@@ -1,0 +1,9 @@
+schema: https://json-schema.org/draft/2020-12/schema
+title: Address
+type: object
+properties:
+  street:
+    type: string
+    description: The name of the street.
+    minLength: 1
+    maxLength: 100
