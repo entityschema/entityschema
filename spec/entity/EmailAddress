@@ -1,0 +1,12 @@
+schema: https://json-schema.org/draft/2020-12/schema
+title: EmailAddress
+type: object
+properties:
+  address:
+    type: string
+    description: The email address.
+    minLength: 1
+    maxLength: 100
+    pattern: /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/
+    
+    
