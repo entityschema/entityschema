@@ -6,7 +6,7 @@ properties:
     type: string
     description: The first name of the person.
     minLength: 1
-    maxLength: 50
+    maxLength: 60
   lastName:
     type: string
     description: The last name of the person.
