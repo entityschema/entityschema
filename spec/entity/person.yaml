@@ -1,0 +1,14 @@
+schema: https://json-schema.org/draft/2020-12/schema
+title: Person
+type: object
+properties:
+  firstName:
+    type: string
+    description: The first name of the person.
+    minLength: 1
+    maxLength: 50
+  lastName:
+    type: string
+    description: The last name of the person.
+required:
+  - firstName
